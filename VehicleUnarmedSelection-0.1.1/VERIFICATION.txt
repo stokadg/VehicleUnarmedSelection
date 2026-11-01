@@ -1,0 +1,6 @@
+PASS: all install signatures match supplied GTAIV.exe
+PASS: PE32 i386 DLL (.asi), imports: VERSION.dll, api-ms-win-crt-string-l1-1-0.dll, api-ms-win-crt-runtime-l1-1-0.dll, api-ms-win-crt-private-l1-1-0.dll, KERNEL32.dll, api-ms-win-crt-convert-l1-1-0.dll, api-ms-win-crt-heap-l1-1-0.dll, api-ms-win-crt-stdio-l1-1-0.dll, api-ms-win-crt-locale-l1-1-0.dll, api-ms-win-crt-environment-l1-1-0.dll, api-ms-win-crt-filesystem-l1-1-0.dll
+PASS: 5280 hook cases; accepted zero, rejected contexts, original branch destinations, all general registers/stack/EFLAGS preserved as required
+PASS: real selector emulation: bidirectional cycles, retention modes, empty inventory, unchanged NPC results, inventory/ammo and thiscall stack cleanup
+3d90e7c516fa450ca002e5031e62c0f66b404590f33e6cc9793b0da4fffbfd0f GTAIV.exe
+6bc1165c2a1d672f14f97e7773300419f0adb1b2a723cdd97c5a55f3515fda09 VehicleUnarmedSelection.asi
